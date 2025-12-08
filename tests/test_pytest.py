@@ -1,10 +1,37 @@
-def test_first_try():
-    print("Hello World!")
+import pytest
 
 
-def test_assert_positive_case():
-    assert (2 + 2) == 4
+@pytest.mark.smoke
+class TestLogin:
+    @pytest.mark.smoke
+    def test_valid_login(self):
+        pass
 
+    @pytest.mark.regression
+    def test_invalid_login(self):
+        pass
 
-def test_assert_negative_case():
-    assert (2 + 2) == 5
+@pytest.mark.regression
+class TestRegistration:
+    @pytest.mark.regression
+    def test_valid_registration(self):
+        pass
+
+    @pytest.mark.smoke
+    def test_invalid_registration(self):
+        pass
+
+@pytest.mark.smoke
+@pytest.mark.regression
+class TestCheckout:
+    @pytest.mark.smoke
+    @pytest.mark.regression
+    def test_valid_checkout(self):
+        pass
+
+    def test_invalid_checkout(self):
+        pass
+
+def test_search():
+    pass
+
