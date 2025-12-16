@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDEzOjU0OjM1LjA2Nzk0MiIsInVzZXJfaWQiOiI3ODMyMTI1OC0yMjVmLTRiM2EtYWNkOC1lMTY4NTUyNTQ1MTUifQ.odFlwPjUvflEFMt7vuEKDedt6G_YL9n3V_t_IdlhHZ0' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Office walk standard fund truth.","maxScore":51,"minScore":30,"description":"Expect pay husband theory. Sense mission produce majority. Threat movement chair purpose several themselves.","estimatedTime":"7 weeks","previewFileId":"74493cbf-8bc4-43df-9874-f23e4a57b592","createdByUserId":"78321258-225f-4b3a-acd8-e16855254515"}'

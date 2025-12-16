@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDEzOjU0OjM4LjI5OTMxOCIsInVzZXJfaWQiOiI4ZGI2MWJiZC0zNjM0LTQxNmMtYjk0Yy1kYjdkMjkwYzI3ZmQifQ.7zF2c_SS0Y5TOhXdTqBGatJw2ur4i6KZJpMuAHUnioU' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Idea foot seat establish medical move customer.","maxScore":55,"minScore":5,"description":"Television family several participant. Know idea represent board.\nMachine process spring quality machine soldier ever. Theory back kind mouth particular who light decade.","estimatedTime":"5 weeks","previewFileId":"5f989ffb-421f-48ba-a9b9-0dddbf35e767","createdByUserId":"8db61bbd-3634-416c-b94c-db7d290c27fd"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDEzOjU0OjM4LjU3MjAzMyIsInVzZXJfaWQiOiI0OWYzOTdkNS1kMWIyLTQzYzctODk0ZC0wOTUxZDY1ODc5MjkifQ.6meXYQPp4_0ybHUcJUQnk5oosgeDs15R2qVbiAX9H1s' \
+  -H 'content-length: 440' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Environment likely themselves stop us goal must.","maxScore":64,"minScore":30,"description":"Pull response answer everything central black. Moment new resource time teacher hear environmental.\nRoad help save. Daughter argue same start. Seven candidate science first understand suffer rate.","estimatedTime":"6 weeks","previewFileId":"61b775ee-623b-439f-b98e-afc1206ccb6b","createdByUserId":"49f397d5-d1b2-43c7-894d-0951d6587929"}'

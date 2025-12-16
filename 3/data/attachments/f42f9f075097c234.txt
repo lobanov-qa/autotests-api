@@ -1,0 +1,32 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/courses?userId=78321258-225f-4b3a-acd8-e16855254515
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=78321258-225f-4b3a-acd8-e16855254515
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:69 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:72 Check that length of "courses" equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:43 Check course
+INFO     BASE_ASSERTIONS:base.py:37 Check that "id" equals to 2687f752-15ef-417a-a6fd-338cfe0ebf29
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Office walk standard fund truth.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 51
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 30
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Expect pay husband theory. Sense mission produce majority. Threat movement chair purpose several themselves.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 7 weeks
+INFO     FILES_ASSERTIONS:files.py:41 Check file
+INFO     BASE_ASSERTIONS:base.py:37 Check that "id" equals to 74493cbf-8bc4-43df-9874-f23e4a57b592
+INFO     BASE_ASSERTIONS:base.py:37 Check that "url" equals to http://localhost:8000/static/tests/d1607910-cd34-4fca-9def-ffb6528dbcad.png
+INFO     BASE_ASSERTIONS:base.py:37 Check that "filename" equals to d1607910-cd34-4fca-9def-ffb6528dbcad.png
+INFO     BASE_ASSERTIONS:base.py:37 Check that "directory" equals to tests
+INFO     USERS_ASSERTIONS:users.py:36 Check user
+INFO     BASE_ASSERTIONS:base.py:37 Check that "id" equals to 78321258-225f-4b3a-acd8-e16855254515
+INFO     BASE_ASSERTIONS:base.py:37 Check that "email" equals to sarah65@example.net
+INFO     BASE_ASSERTIONS:base.py:37 Check that "last_name" equals to Cole
+INFO     BASE_ASSERTIONS:base.py:37 Check that "first_name" equals to Patricia
+INFO     BASE_ASSERTIONS:base.py:37 Check that "middle_name" equals to Ethan
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema

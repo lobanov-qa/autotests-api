@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDEzOjU0OjM4LjI5OTMxOCIsInVzZXJfaWQiOiI4ZGI2MWJiZC0zNjM0LTQxNmMtYjk0Yy1kYjdkMjkwYzI3ZmQifQ.7zF2c_SS0Y5TOhXdTqBGatJw2ur4i6KZJpMuAHUnioU' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Price over message for blood organization collection industry.","courseId":"1af4aafc-e18d-4a16-89f1-fb7a8def9d74","maxScore":63,"minScore":12,"orderIndex":80,"description":"Again suffer economic war conference. Down move sing various. That stage turn theory well movement present begin. Write occur girl moment.\nGrow real need soldier product. Police last level though.","estimatedTime":"10 weeks"}'

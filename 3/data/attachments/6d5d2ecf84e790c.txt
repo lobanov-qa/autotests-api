@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDEzOjU0OjM5LjUxMzY3MiIsInVzZXJfaWQiOiI2NmVlNzYxNi1mYTIyLTQ5YmUtYWI4NS1mMGQ0MTk4Nzk3NjEifQ.rSZ0r7S6n4az5ngOpH0SKhtpMm812C8nGajDf-S1cCk' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Could west draw better listen top key power.","courseId":"f654f0ca-9466-4290-b1f2-e891805b32b9","maxScore":51,"minScore":11,"orderIndex":51,"description":"Hospital they business almost a. Listen gun even friend remember respond finish to. Fear peace south cost exactly color take church.\nSet allow public nearly.","estimatedTime":"8 weeks"}'

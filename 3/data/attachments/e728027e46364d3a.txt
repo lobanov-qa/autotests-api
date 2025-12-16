@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDEzOjU0OjM2LjI0NTMwNyIsInVzZXJfaWQiOiJkYWNjODk3Zi01YWI4LTQ1ZTgtOWQ4OS02YTk2YTY3ZTllYmMifQ.KKDN4iQlUEEX9Te1B6i1gd2JvTSBz8EBMEAIWFMU278' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mention with six sign view research sound.","maxScore":94,"minScore":15,"description":"Tree common cover camera. Administration too speech.\nRange maybe true fall control could such. Good every admit financial partner consider. Require have attack up.","estimatedTime":"10 weeks","previewFileId":"f40c8d25-9869-4516-9ff9-639dedaf9d60","createdByUserId":"dacc897f-5ab8-45e8-9d89-6a96a67e9ebc"}'
