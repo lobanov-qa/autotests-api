@@ -89,9 +89,9 @@ jobs:
 
       - name: Copy existing Allure history
         run: |
-          if [ -d "gh-pages" ]; then
-            mkdir -p allure-history
-            cp -r gh-pages/history/* allure-history/ 
+          mkdir -p allure-history
+          if ls gh-pages/* >/dev/null 2>&1; then
+            cp -r gh-pages/* allure-history/
           fi
 
       # 3. Шаг для генерации и отображения отчёта Allure
