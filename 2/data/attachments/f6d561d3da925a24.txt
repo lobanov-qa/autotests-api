@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:86 Check create course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Girl identify organization kind good scene others western.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 88
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 16
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Property little sure imagine. Item let themselves window. Course dream we give listen.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 2 weeks
+INFO     BASE_ASSERTIONS:base.py:37 Check that "preview_file_id" equals to 491bbd65-44b5-4f9c-b86e-bdc2114accd9
+INFO     BASE_ASSERTIONS:base.py:37 Check that "created_by_user_id" equals to cd40210c-91be-4c62-abf4-cda047185aa8
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDEzOjUwOjIxLjkwMTI1NyIsInVzZXJfaWQiOiJlYTllM2I3OC0wZTVmLTQ4NDMtYTJiMi0wNzBkNzliNTI3NDIifQ.pe_r6DPPbxEq0p2UnGb1MsFoKFU4ZQWp2c5mprZ92EQ' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Accept along itself.","maxScore":90,"minScore":15,"description":"Audience call order pay pull.\nItem wind before like indeed within movement bank.\nPlay level weight human network. Event according relationship hundred new himself.","estimatedTime":"7 weeks","previewFileId":"c736ebeb-36b0-4b88-8bd9-f6ba48a31bf9","createdByUserId":"ea9e3b78-0e5f-4843-a2b2-070d79b52742"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDEzOjUwOjI0LjI0NTkyNSIsInVzZXJfaWQiOiI3YTgyMDYzZS0zZWM2LTQ0M2QtOTE2Yi02N2RlM2E1NjA1NjIifQ.QX2jWVhQpJ-xh5DX3PK2QIDvf2m6_MfuhUvqKZBSmec' \
+  -H 'content-length: 378' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Than television morning hundred either these tough.","maxScore":78,"minScore":13,"description":"Enter wife national sit authority too eat push. Certainly simply never site. Suddenly particular miss food enter common office drug.","estimatedTime":"4 weeks","previewFileId":"0540c63e-6146-43a6-a05a-56092f3321e1","createdByUserId":"7a82063e-3ec6-443d-916b-67de3a560562"}'

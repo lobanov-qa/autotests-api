@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDEzOjUwOjIzLjM3NDYyMCIsInVzZXJfaWQiOiJjZDQwMjEwYy05MWJlLTRjNjItYWJmNC1jZGEwNDcxODVhYTgifQ.jGLv5az0N1HaKq6h8iYZs3Ub_3x1WohkUtTElR6z3E8' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Girl identify organization kind good scene others western.","maxScore":88,"minScore":16,"description":"Property little sure imagine. Item let themselves window. Course dream we give listen.","estimatedTime":"2 weeks","previewFileId":"491bbd65-44b5-4f9c-b86e-bdc2114accd9","createdByUserId":"cd40210c-91be-4c62-abf4-cda047185aa8"}'

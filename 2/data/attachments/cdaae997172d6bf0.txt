@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDEzOjUwOjI0LjUxOTk0MiIsInVzZXJfaWQiOiJmMzlkNzc2Yy1jZjMzLTQ2ZjItOWEzZi0xMjBmOWU1ZTYxZGQifQ.KNHlWb4FFPNmG4_5UMyfK3QPRbnSGSKEF7rCqIxZeHI' \
+  -H 'content-length: 425' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Region image agreement single store piece.","maxScore":64,"minScore":24,"description":"Eight of spring forget citizen general. Least sit once name against change. Mother practice identify short center.\nExpert maybe believe new produce financial. Him maintain into site cell.","estimatedTime":"8 weeks","previewFileId":"c02df483-ec86-4dda-94dc-5b70d34ce763","createdByUserId":"f39d776c-cf33-46f2-9a3f-120f9e5e61dd"}'

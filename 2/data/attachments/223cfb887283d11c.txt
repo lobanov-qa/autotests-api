@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/24b1148a-111b-4c82-bf8e-0cf2417778b4' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDEzOjUwOjI0LjUxOTk0MiIsInVzZXJfaWQiOiJmMzlkNzc2Yy1jZjMzLTQ2ZjItOWEzZi0xMjBmOWU1ZTYxZGQifQ.KNHlWb4FFPNmG4_5UMyfK3QPRbnSGSKEF7rCqIxZeHI' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Century mean media then hot its modern toward.","maxScore":54,"minScore":29,"orderIndex":93,"description":"Best wall husband. Soon once learn. Start act treatment street not cut I.\nForeign option say must billion. Wife exist wife word detail car.\nReason road field. Study level physical artist small plant.","estimatedTime":"6 weeks"}'

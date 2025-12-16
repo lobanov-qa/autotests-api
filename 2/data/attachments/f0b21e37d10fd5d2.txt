@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDEzOjUwOjI2LjY0OTI2MSIsInVzZXJfaWQiOiI3MTkxMjc3MC0yM2E1LTQ4ODUtOWIxMS1mYjM5MzUwNDg1MWUifQ.OfmH0gRuTKBiDyp77yiC8t6RioBzU8DE_l8CVgJaReA' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Would effect debate maintain.","maxScore":92,"minScore":3,"description":"Less peace else effect phone. Will test structure site study lot.\nArrive which successful light. Certain view throw well weight better somebody. Model Congress surface partner laugh new stock.","estimatedTime":"10 weeks","previewFileId":"40be4500-92da-4d1c-95a9-0893dc7475c3","createdByUserId":"71912770-23a5-4885-9b11-fb393504851e"}'

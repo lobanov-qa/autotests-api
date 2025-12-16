@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDEzOjUwOjI1LjQyOTc1OCIsInVzZXJfaWQiOiJhNDk1M2FiNy1iMmJmLTRiYjItODJjNS0yMGJhZjkzZDlkN2QifQ.6kzVbOPOmiMeCtnMBRhKUoZT4vctyKBgSVoxnWhVYrM' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Article heavy interview main strong.","maxScore":91,"minScore":27,"description":"Design third theory property identify. Else lot talk check should send. Third politics news.\nDifficult finish head. President send behind particularly fund per raise.\nExactly why yeah or.","estimatedTime":"9 weeks","previewFileId":"b7071fc3-8143-48dc-a564-17f8beb323e9","createdByUserId":"a4953ab7-b2bf-4bb2-82c5-20baf93d9d7d"}'
