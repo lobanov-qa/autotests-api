@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDE0OjMyOjM3LjcyMzc0MiIsInVzZXJfaWQiOiJhZmFkYmYyNi0zOWFhLTQ0ODktOGYwOS02NTQyNjk3ZmYzNGEifQ.PZwNdtZ1FNsFU8JIp8ddLcQIH036M53pUw5X9F_sUlY' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Provide go education miss fall grow baby artist.","maxScore":84,"minScore":13,"description":"Professional should last throw his film authority. Culture special church different threat.\nPresident guess human white. Partner himself number.","estimatedTime":"2 weeks","previewFileId":"bff348a3-0ec3-4d59-bf4c-188a1af60cd6","createdByUserId":"afadbf26-39aa-4489-8f09-6542697ff34a"}'

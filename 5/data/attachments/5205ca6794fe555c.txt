@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDE0OjMyOjM4Ljg4ODAzMiIsInVzZXJfaWQiOiIwYTU4OWM0YS1jYWEyLTRmZjAtODIzOS0zNTQ3OTY4MTM4YTQifQ.pc1fsSbZxqEsaZPu_lz_2oWLKaVwEBvhKx8wdPxRCe4' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"These traditional glass allow job.","courseId":"d3deafa9-f9d9-4d10-8235-f265231dc87b","maxScore":66,"minScore":3,"orderIndex":25,"description":"Question oil performance pattern may information avoid. Think reason woman we event. Team name traditional risk.\nCareer skin machine every lot feeling. Prove ground cell significant information.","estimatedTime":"9 weeks"}'

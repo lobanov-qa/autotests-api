@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDE0OjMyOjM3LjEyOTgzNSIsInVzZXJfaWQiOiI4MTdjYjE5Ny1hZThkLTQyYTQtOTgwOS0yYTU2NmRjNmZlMmIifQ.A33hdkNbHumotyzgx4KNWFrlqhWu6SWg56nnCzU0vbo' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Debate alone ahead.","maxScore":87,"minScore":3,"description":"Kind southern sport.\nKitchen account to religious democratic though bank. Example bill worry daughter company land experience.","estimatedTime":"4 weeks","previewFileId":"8e16fed7-88aa-4f4a-b5b3-abd6eb93b631","createdByUserId":"817cb197-ae8d-42a4-9809-2a566dc6fe2b"}'

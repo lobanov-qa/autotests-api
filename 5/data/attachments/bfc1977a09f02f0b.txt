@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/2b21d088-f28a-4b31-be06-e0721a16e9ab' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDE0OjMyOjM3LjEyOTgzNSIsInVzZXJfaWQiOiI4MTdjYjE5Ny1hZThkLTQyYTQtOTgwOS0yYTU2NmRjNmZlMmIifQ.A33hdkNbHumotyzgx4KNWFrlqhWu6SWg56nnCzU0vbo' \
+  -H 'content-length: 182' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Street weight also.","maxScore":96,"minScore":2,"description":"Door him rule hour easy treatment. Pass paper party me interview decision moment.","estimatedTime":"5 weeks"}'

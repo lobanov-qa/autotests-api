@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDE0OjMyOjQwLjcyNDcwMSIsInVzZXJfaWQiOiI4NTJlNWNhYS03ZmYzLTRlNGYtOTgzNy03ODVjNWQ5NGRkZDEifQ.2GOD50H-VzF0hqZ0y2W6T7VsE5MVQpuRxA6OtH-9aeg' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Oil security section south you visit debate few.","maxScore":88,"minScore":11,"description":"Key evidence kind tell catch quite institution raise. Weight way pressure.\nWhile they me affect sound. Discover throw miss its behind. Hair relationship response against.","estimatedTime":"9 weeks","previewFileId":"396ce95f-94f8-42b2-b977-15c5a309533f","createdByUserId":"852e5caa-7ff3-4e4f-9837-785c5d94ddd1"}'

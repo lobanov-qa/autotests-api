@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDE0OjMyOjQwLjEwNzkxOCIsInVzZXJfaWQiOiI5ZDlmMDhjMS1lYjNkLTRkODQtODIzMS05ZTA0NjQ3ZTNjYmMifQ.VRdOHQHvZsHFAbKUTKK_l0AE1kbbdaRjSbEnvH9doP4' \
+  -H 'content-length: 446' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Even themselves performance process provide share system.","maxScore":90,"minScore":5,"description":"Line art weight relationship mission administration within. Place degree east report forward tend. Special head side lay blue.\nMind teacher just southern. Stage fund of create add. May must bit.","estimatedTime":"8 weeks","previewFileId":"ebe6616d-5b53-414f-b238-4d7b8195acf0","createdByUserId":"9d9f08c1-eb3d-4d84-8231-9e04647e3cbc"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDE0OjMyOjM4Ljg4ODAzMiIsInVzZXJfaWQiOiIwYTU4OWM0YS1jYWEyLTRmZjAtODIzOS0zNTQ3OTY4MTM4YTQifQ.pc1fsSbZxqEsaZPu_lz_2oWLKaVwEBvhKx8wdPxRCe4' \
+  -H 'content-length: 365' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nearly thus federal decade against notice first.","maxScore":51,"minScore":14,"description":"Very would trouble recognize. Order sell crime back stand population under. Benefit human student partner follow if room.","estimatedTime":"10 weeks","previewFileId":"d0ee2d04-6e18-4284-8f72-cabcb91b5076","createdByUserId":"0a589c4a-caa2-4ff0-8239-3547968138a4"}'
