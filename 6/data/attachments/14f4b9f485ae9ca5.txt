@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDE0OjQwOjA0LjEyMTY0MiIsInVzZXJfaWQiOiI4MGQzYWMyNy00YTU2LTQxY2ItYWZkMy04YzRiNjg0YWM4OWEifQ.myiLeJFYObPeZbiUNGvw6wTGEkv-_aEmXKVUm0AWxng' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Laugh nation set.","maxScore":88,"minScore":12,"description":"Have although make condition plant. Early cultural ready police debate during however. Also help nearly bad season service according.","estimatedTime":"9 weeks","previewFileId":"3d190777-0771-4a8e-95b5-be65e5b41bd6","createdByUserId":"80d3ac27-4a56-41cb-afd3-8c4b684ac89a"}'

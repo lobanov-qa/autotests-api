@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDE0OjQwOjA0LjY3NTk3NyIsInVzZXJfaWQiOiJjNDQzYjYzYy02OWIyLTQ4YTQtYTVhNy03MjQyNDYxMDU5N2QifQ.CY9RbE0pRqziVZFJfouBkMYVzK-TbNEthcUMIyt13U4' \
+  -H 'content-length: 302' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Land budget name seat amount.","maxScore":84,"minScore":27,"description":"Make war wrong modern. Probably consider hotel because be or specific thought.","estimatedTime":"9 weeks","previewFileId":"fe59f1d4-c381-41b6-9cec-73e4b6a8432d","createdByUserId":"c443b63c-69b2-48a4-a5a7-72424610597d"}'

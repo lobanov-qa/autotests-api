@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDE0OjQwOjA1LjUwNTU2NSIsInVzZXJfaWQiOiI1OWE0ZjUzOC1mNDFlLTQ0NmItYjBkNC02YTMzMzQ5YTg3MTIifQ.vZS8EnceTRy31swOxAc0MYYgO8RPOatR7-kp80KFFnI' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Participant song type third increase.","maxScore":98,"minScore":8,"description":"Film choose natural information leave shake. Environmental give war short. Course news feel.\nAttorney just in customer all red if behind. Any themselves adult modern level certainly us truth.","estimatedTime":"9 weeks","previewFileId":"14927209-cc4b-4c8d-b928-4c727d9fe469","createdByUserId":"59a4f538-f41e-446b-b0d4-6a33349a8712"}'

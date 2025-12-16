@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDE0OjQwOjA2Ljg4MzM1MCIsInVzZXJfaWQiOiIzZTNlMTE0OC0yOTkzLTQ3YjEtYTkxYy04YTdhMTZkM2IxOGQifQ.8yySnhYHNoKKxF8IUOq3VZ8RW-vbbvkDxEamUme8LAg' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Source within Democrat stage store.","maxScore":75,"minScore":14,"description":"Measure listen our light realize society herself.\nHim property song store could. Near information information action food. Deal interview lay media.","estimatedTime":"1 weeks","previewFileId":"8f0f1fe1-b427-4d22-92d6-cde2dee53fc2","createdByUserId":"3e3e1148-2993-47b1-a91c-8a7a16d3b18d"}'

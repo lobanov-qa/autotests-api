@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/df9ae6bf-7517-4d87-a842-d8a78cd27241' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDE0OjQwOjA0LjEyMTY0MiIsInVzZXJfaWQiOiI4MGQzYWMyNy00YTU2LTQxY2ItYWZkMy04YzRiNjg0YWM4OWEifQ.myiLeJFYObPeZbiUNGvw6wTGEkv-_aEmXKVUm0AWxng' \
+  -H 'content-length: 290' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Food power cold discussion election heart check.","maxScore":75,"minScore":12,"description":"Ask American plant some arrive small outside. Few fine want tell. Keep identify significant authority factor eye. International specific half daughter former.","estimatedTime":"10 weeks"}'

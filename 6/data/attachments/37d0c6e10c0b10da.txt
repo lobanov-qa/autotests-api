@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:86 Check create course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Land budget name seat amount.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 84
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 27
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Make war wrong modern. Probably consider hotel because be or specific thought.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 9 weeks
+INFO     BASE_ASSERTIONS:base.py:37 Check that "preview_file_id" equals to fe59f1d4-c381-41b6-9cec-73e4b6a8432d
+INFO     BASE_ASSERTIONS:base.py:37 Check that "created_by_user_id" equals to c443b63c-69b2-48a4-a5a7-72424610597d
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema

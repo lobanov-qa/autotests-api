@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDE0OjQwOjA2LjYyNDMyNSIsInVzZXJfaWQiOiIzYjg2MGFjZC1lODhlLTQ5NzAtODJiZi03N2Q0N2RjMDQ1ODcifQ.ivAF0-W0gQqg6inbDIK_fuzCKzsq0i6nvJ4BOfL4MYY' \
+  -H 'content-length: 438' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Individual method mind force address everybody.","maxScore":59,"minScore":8,"description":"Six also find like. Measure time run radio support may.\nVote Congress base bill ahead. Analysis food world first.\nGroup rule newspaper sister city. Face behind let movie guy. Whether blood first.","estimatedTime":"8 weeks","previewFileId":"e6d5da30-3856-4154-ba14-75111c9414a7","createdByUserId":"3b860acd-e88e-4970-82bf-77d47dc04587"}'

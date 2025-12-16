@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDE0OjQwOjA2Ljg4MzM1MCIsInVzZXJfaWQiOiIzZTNlMTE0OC0yOTkzLTQ3YjEtYTkxYy04YTdhMTZkM2IxOGQifQ.8yySnhYHNoKKxF8IUOq3VZ8RW-vbbvkDxEamUme8LAg' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Concern better daughter professional always shake rest.","courseId":"500e2c89-76b0-454b-b164-3f3da3b1333e","maxScore":96,"minScore":14,"orderIndex":39,"description":"Person wall dark air. Small common later kind campaign. Recent win man we culture thing.\nRoom possible speech care. Stay rise consider chair natural near occur. Public charge of.","estimatedTime":"6 weeks"}'

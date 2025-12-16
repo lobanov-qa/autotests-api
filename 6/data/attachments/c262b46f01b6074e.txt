@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDE0OjQwOjA1LjUwNTU2NSIsInVzZXJfaWQiOiI1OWE0ZjUzOC1mNDFlLTQ0NmItYjBkNC02YTMzMzQ5YTg3MTIifQ.vZS8EnceTRy31swOxAc0MYYgO8RPOatR7-kp80KFFnI' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Poor process follow mention.","courseId":"3929ff79-516c-42aa-a2d5-df32b9f6a4f0","maxScore":98,"minScore":1,"orderIndex":88,"description":"Tend east writer others. Sport family floor doctor lot.\nOffice tonight good out adult go by. Rule make fire any investment.\nFill law perform fine drive. A health computer or.","estimatedTime":"3 weeks"}'
