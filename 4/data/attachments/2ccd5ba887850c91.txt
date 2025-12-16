@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDE0OjI1OjU4LjQ3NTU0MyIsInVzZXJfaWQiOiIzOTVmMTAyMy00OTcxLTQzYjYtODZiZi1jZWEzMWMwYTM4ODcifQ.Dl4D-4y-PKgk75fDcD5UDDB-7D4rZlHoccYP7WvnscI' \
+  -H 'content-length: 315' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Worker space room.","maxScore":96,"minScore":3,"description":"Part response reality experience away capital black teach. Stage country customer produce start minute.","estimatedTime":"9 weeks","previewFileId":"12d17afc-e288-4f94-9adc-0c413499f1e7","createdByUserId":"395f1023-4971-43b6-86bf-cea31c0a3887"}'

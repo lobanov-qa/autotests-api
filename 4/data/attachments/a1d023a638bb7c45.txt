@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDE0OjI1OjU5LjM1NDQ2OCIsInVzZXJfaWQiOiI3YzJhNWU4Mi02YmFjLTRlNTgtYjRjZC1mNjMxYTM0YTEwOTkifQ.3glgAAzUEqEsV3YQbPPy0NVQ67tNZSUzrQDS_ZDrXOo' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Term care gun church help thought coach.","maxScore":66,"minScore":17,"description":"See herself human later seek. Exactly drop something another. Travel structure specific.\nScientist fill anything thought exist military. Together field hotel sit.","estimatedTime":"3 weeks","previewFileId":"e531729e-ef41-4a09-a27e-52e45f1bb872","createdByUserId":"7c2a5e82-6bac-4e58-b4cd-f631a34a1099"}'

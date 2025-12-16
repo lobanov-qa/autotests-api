@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDE0OjI2OjAwLjgwMDU1MSIsInVzZXJfaWQiOiI3YzgwZmRlOC1kMWU1LTQxMmYtODI0Zi02ZWI0YjkyNmFmOGIifQ.eQHo_SnJVl5W-VjEuRFyQzVU61CVXkUfz0lVsSEN2oM' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bag floor relationship break.","maxScore":82,"minScore":2,"description":"Miss common society size. Congress hear certainly animal year daughter history.\nWorld hold risk detail process. Official somebody center color Republican high.","estimatedTime":"10 weeks","previewFileId":"1888a01d-ceeb-4d43-adb1-43f18cd4334d","createdByUserId":"7c80fde8-d1e5-412f-824f-6eb4b926af8b"}'

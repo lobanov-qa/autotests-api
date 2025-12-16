@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDE0OjI1OjU3Ljg5NTQ0MCIsInVzZXJfaWQiOiJlZmNkZWNhMS1mYzA3LTQyMWEtOWNiMS1jMzg2ZjZhZDM2ZjMifQ.qhuv8T5jwN39L6SlN_zRkqPTBj8TGcMr-iyb_2dfDJw' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Personal well theory knowledge.","maxScore":65,"minScore":28,"description":"Our yourself gun no charge sign will. Character serious center. Information eight sea or.\nThink third short leader citizen thank. Only everyone next.","estimatedTime":"8 weeks","previewFileId":"66650390-f4c3-42d4-a842-74db600f3b0f","createdByUserId":"efcdeca1-fc07-421a-9cb1-c386f6ad36f3"}'

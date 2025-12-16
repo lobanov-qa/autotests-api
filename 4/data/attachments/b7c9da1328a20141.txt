@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDE0OjI1OjU5LjYyNjgyMyIsInVzZXJfaWQiOiJiZDU0M2U0Mi00Mzk3LTRlOWItYTIwZi1iMzA5OGMyYmNiNGYifQ.yh00LIdKyNMMcy-s6X4PAZVa3k293vQuy0Qe68V9zJ4' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Citizen over until age.","maxScore":63,"minScore":18,"description":"Ready better move arrive down program. Large consider break mention put happy result.\nDefense open management everyone. Head others idea several hospital method. Score character sit hospital.","estimatedTime":"7 weeks","previewFileId":"b312bbdf-8d7a-43dd-a71d-7a4f618de231","createdByUserId":"bd543e42-4397-4e9b-a20f-b3098c2bcb4f"}'

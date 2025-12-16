@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDE0OjI2OjAwLjUyODgyOSIsInVzZXJfaWQiOiI1ZDI0OWVhNC02NmEyLTRjZmYtOTFkYS05MDNlNjJmODUyMzEifQ.PsciXV-yqaSJn5zxwse3z3ivHdDgpC7kbKi868HWgQw' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Strategy blue season realize.","maxScore":71,"minScore":18,"description":"The more can where base learn. Recognize prepare conference Mrs ever wife.\nKind truth impact late successful simply. Miss clearly television yourself environment professional industry.","estimatedTime":"4 weeks","previewFileId":"37f932df-f277-482d-a5cc-3096e36c3dee","createdByUserId":"5d249ea4-66a2-4cff-91da-903e62f85231"}'

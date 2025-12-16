@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/84113b49-ac21-489d-9a2d-b96a148c4733' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDE0OjI1OjU3Ljg5NTQ0MCIsInVzZXJfaWQiOiJlZmNkZWNhMS1mYzA3LTQyMWEtOWNiMS1jMzg2ZjZhZDM2ZjMifQ.qhuv8T5jwN39L6SlN_zRkqPTBj8TGcMr-iyb_2dfDJw' \
+  -H 'content-length: 269' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Better market attorney economy.","maxScore":63,"minScore":13,"description":"Heart record sound option. Argue he entire long while. However cultural analysis direction.\nResearch create yard speech mean without. Result stay imagine.","estimatedTime":"2 weeks"}'
