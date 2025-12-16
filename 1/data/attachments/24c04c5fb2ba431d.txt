@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDEyOjMzOjIyLjM5MzQzNyIsInVzZXJfaWQiOiI1ZGM5NWM5Ni1jNTNjLTQ0M2MtOTg3OS1lMjk2ZTc4NjE4YWIifQ.bvJ4QDnoZYnu3foZiZvLZxsDXpkJbsiYTc30mcYhBos' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Work rate buy important hair.","courseId":"fe0d3712-4235-4580-8dcb-87823e8cefa4","maxScore":69,"minScore":25,"orderIndex":88,"description":"Fast community some between identify. Always several speak pass light.\nAcross western fly use really team. Subject if vote. Doctor end design positive.\nStock resource month sister letter.","estimatedTime":"8 weeks"}'

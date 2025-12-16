@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDEyOjMzOjIwLjAyNDA0MiIsInVzZXJfaWQiOiI4NWI2OWQwMi1iOGQ0LTQxZjgtODFiZi01NGRhYzMxNmM2NWQifQ.dABxs4z-QbW_-AwrXACjQhue0Sgr7SKXSkI6dVxIlDw' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Dream want draw audience trip experience rate.","maxScore":86,"minScore":15,"description":"Popular blue paper of wind bad. Dark picture increase early.\nWord write attention anything. Soldier which among skin true TV guy. Boy clear situation business.","estimatedTime":"9 weeks","previewFileId":"346adfb7-4f24-48ca-981b-5fde3f4835ab","createdByUserId":"85b69d02-b8d4-41f8-81bf-54dac316c65d"}'

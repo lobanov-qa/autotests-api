@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:86 Check create course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Actually box firm stock represent rock number.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 78
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 14
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Week join hear memory actually relationship. Moment region whether. Mention pick simple north guess cold perform.
+Field fund mouth however for.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 4 weeks
+INFO     BASE_ASSERTIONS:base.py:37 Check that "preview_file_id" equals to 667fc4d6-6250-49d9-aca3-92f9798559ce
+INFO     BASE_ASSERTIONS:base.py:37 Check that "created_by_user_id" equals to bab1468c-07cc-4d9d-8f5e-d6d392bd64af
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema

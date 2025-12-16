@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDEyOjMzOjIxLjQ4NzE3NCIsInVzZXJfaWQiOiIyNDY2YTZhOS1iNmRmLTQ2ZTktODUyNS1mNGJkYWVlNDFiMDYifQ.ks5V6u7xXTptvpqvX0pZMdhCaHvhsZRBgYK9jcRg3Bo' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Not important door player tree very hold.","maxScore":98,"minScore":16,"description":"Lead force his hold happy smile least.\nLot ready number rule. Across standard per issue situation able can.","estimatedTime":"10 weeks","previewFileId":"c3f5d203-f8cb-4429-93e3-5de4f140d337","createdByUserId":"2466a6a9-b6df-46e9-8525-f4bdaee41b06"}'

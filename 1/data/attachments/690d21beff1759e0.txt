@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDEyOjMzOjIwLjI5Njc2NiIsInVzZXJfaWQiOiJiYWIxNDY4Yy0wN2NjLTRkOWQtOGY1ZS1kNmQzOTJiZDY0YWYifQ.1jQ8FzAIEXDCnIe9lo9kZTEVVMxAh0la79nqUUPzTeE' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Actually box firm stock represent rock number.","maxScore":78,"minScore":14,"description":"Week join hear memory actually relationship. Moment region whether. Mention pick simple north guess cold perform.\nField fund mouth however for.","estimatedTime":"4 weeks","previewFileId":"667fc4d6-6250-49d9-aca3-92f9798559ce","createdByUserId":"bab1468c-07cc-4d9d-8f5e-d6d392bd64af"}'

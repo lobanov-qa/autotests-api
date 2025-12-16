@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDEyOjMzOjE4Ljg4NTk5OSIsInVzZXJfaWQiOiI2MGZhZmIxZC1kODNhLTRmODEtYjY1My05Mjg1NjU0MGNlMWYifQ.F1t0eju_gcIBzsRQBSSgAVzmiuwkvend0YENHdX4QfM' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Happy piece traditional yet.","maxScore":72,"minScore":15,"description":"Bag what themselves none behavior. Eat must positive win note wall floor.\nWhose rate trip occur. Money market say parent down end. Assume every identify others economy.","estimatedTime":"8 weeks","previewFileId":"57785e5a-d0a3-4923-aa69-7e13eea869eb","createdByUserId":"60fafb1d-d83a-4f81-b653-92856540ce1f"}'

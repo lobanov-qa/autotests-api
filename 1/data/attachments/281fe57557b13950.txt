@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/cc64d873-bbb6-44b1-96ba-19a133d5b5c6' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDEyOjMzOjIxLjQ4NzE3NCIsInVzZXJfaWQiOiIyNDY2YTZhOS1iNmRmLTQ2ZTktODUyNS1mNGJkYWVlNDFiMDYifQ.ks5V6u7xXTptvpqvX0pZMdhCaHvhsZRBgYK9jcRg3Bo' \
+  -H 'content-length: 310' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mrs defense would fast rate body direction.","maxScore":95,"minScore":18,"orderIndex":4,"description":"Can by less various. Live common skin fire adult everyone will. Team major generation teach network.\nEast standard fire player nation. Same word help entire wind have.","estimatedTime":"10 weeks"}'

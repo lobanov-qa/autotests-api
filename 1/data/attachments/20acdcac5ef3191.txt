@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDEyOjMzOjIxLjQ4NzE3NCIsInVzZXJfaWQiOiIyNDY2YTZhOS1iNmRmLTQ2ZTktODUyNS1mNGJkYWVlNDFiMDYifQ.ks5V6u7xXTptvpqvX0pZMdhCaHvhsZRBgYK9jcRg3Bo' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Investment product anyone high.","courseId":"a155625a-2560-4044-a050-d8a9497df191","maxScore":50,"minScore":30,"orderIndex":92,"description":"Behind should hour could personal yes long policy. Central pressure PM recognize probably hear this.\nFar who summer kitchen fact avoid. Enter level fact number. Born black all stuff.","estimatedTime":"6 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDEyOjMzOjIzLjYxMjY5NCIsInVzZXJfaWQiOiIyMmJmMjY2Yi1mYzMwLTRlYmYtYTE2Zi0yZjRlYmNkZjBiZGQifQ.GxTX7xmwC3D5S281YJlTWaUZZVBhR9eV7_n-aM0Q-aU' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bed mother agreement owner.","maxScore":92,"minScore":2,"description":"For site consider shoulder current imagine they. Board short determine near they. Where give loss.\nWithin film investment central quality ball. Decision become performance significant understand.","estimatedTime":"9 weeks","previewFileId":"eba947fd-99fc-4309-9005-50c878a967b8","createdByUserId":"22bf266b-fc30-4ebf-a16f-2f4ebcdf0bdd"}'

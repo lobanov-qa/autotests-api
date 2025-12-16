@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE2VDEyOjMzOjIxLjIxNDMzMCIsInVzZXJfaWQiOiI5MjNiZTMwMC1iNjAwLTQ1ZWUtOTM0YS1iYjczYTBjNjA5YzgifQ.jVp_KjTuDBu3sN4jHnVCCkm3zKYivA8T3TzOK9DbLgY' \
+  -H 'content-length: 427' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Soldier peace office kitchen political officer.","maxScore":54,"minScore":11,"description":"Soon natural fact deep analysis white newspaper. Stage us arrive upon.\nSeek former white away finally certain. Order child stuff environmental. Girl avoid another another source radio.","estimatedTime":"8 weeks","previewFileId":"bf17f018-d8cd-475b-b40d-e1532a96a50e","createdByUserId":"923be300-b600-45ee-934a-bb73a0c609c8"}'
