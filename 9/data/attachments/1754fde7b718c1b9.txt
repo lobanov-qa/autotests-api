@@ -1,0 +1,35 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/courses?userId=3873880b-d3b1-4574-a1ea-2a9919ec9c1f
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=3873880b-d3b1-4574-a1ea-2a9919ec9c1f
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:69 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:72 Check that length of "courses" equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:43 Check course
+INFO     BASE_ASSERTIONS:base.py:37 Check that "id" equals to d761bca7-6fa7-4ada-8b0c-2f1594f3cdde
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Represent PM security property other.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 91
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 24
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Newspaper movie worker although.
+Church accept when argue worker. Buy wife PM scene success.
+South data about article. Wear price both keep there. Fire save sort would us term science.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 7 weeks
+INFO     FILES_ASSERTIONS:files.py:41 Check file
+INFO     BASE_ASSERTIONS:base.py:37 Check that "id" equals to 3c8ad85a-580e-43c2-8388-0d37ee16f245
+INFO     BASE_ASSERTIONS:base.py:37 Check that "url" equals to http://localhost:8000/static/tests/b5699d7b-c146-4a47-a447-6caa125d48f9.png
+INFO     BASE_ASSERTIONS:base.py:37 Check that "filename" equals to b5699d7b-c146-4a47-a447-6caa125d48f9.png
+INFO     BASE_ASSERTIONS:base.py:37 Check that "directory" equals to tests
+INFO     USERS_ASSERTIONS:users.py:36 Check user
+INFO     BASE_ASSERTIONS:base.py:37 Check that "id" equals to 3873880b-d3b1-4574-a1ea-2a9919ec9c1f
+INFO     BASE_ASSERTIONS:base.py:37 Check that "email" equals to shannonbuck@example.com
+INFO     BASE_ASSERTIONS:base.py:37 Check that "last_name" equals to Frazier
+INFO     BASE_ASSERTIONS:base.py:37 Check that "first_name" equals to Kimberly
+INFO     BASE_ASSERTIONS:base.py:37 Check that "middle_name" equals to Patrick
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema

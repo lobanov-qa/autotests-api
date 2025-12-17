@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE1OjQxOjIzLjMxMjcyOCIsInVzZXJfaWQiOiIyOTA5YzU5Yi03MzE3LTQ0OWEtOTk4MC1lYjM4OTM0MmFjMzUifQ.3SK1yaU2RAjmOdqljagwqcnimvOZ4NAnRsvi2pijX4o' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Often risk those risk.","maxScore":67,"minScore":30,"description":"Between interest experience relationship. Office almost same police country paper report.\nActivity street pretty join season space fire. Look back week station off low.","estimatedTime":"8 weeks","previewFileId":"edb77d55-4b10-4451-b60c-5a04063ba147","createdByUserId":"2909c59b-7317-449a-9980-eb389342ac35"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE1OjQxOjI0LjUwMTk0NCIsInVzZXJfaWQiOiIxNWVmODU1Yy03N2VhLTRiNGEtOWVmZS1hZjU2ZGMyN2Y4MmYifQ.Tt8iYZ_bxiOk7LpYj8ruDxLQNioE6CG3N7V_2id39Fc' \
+  -H 'content-length: 357' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ahead animal forget wish.","maxScore":52,"minScore":30,"description":"Often both treatment society. Fact trip fact effect. Dinner station listen hand.\nProduction range relationship significant truth number.","estimatedTime":"7 weeks","previewFileId":"d9d28286-d7c2-4d86-802c-4c9f281d3706","createdByUserId":"15ef855c-77ea-4b4a-9efe-af56dc27f82f"}'

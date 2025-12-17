@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE1OjQxOjIzLjAzOTg0NCIsInVzZXJfaWQiOiIxZjU4OTc1NS01ODkxLTQwNTEtYTY2Yi1hNDZjNTUwNzNiZWIifQ.78W3QIGxmVHGRLi10xq9bc8-rTtLIVCmIhiBSmmQqlA' \
+  -H 'content-length: 436' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Crime black body within mean performance else.","maxScore":59,"minScore":13,"description":"Whom own dog degree no collection. Environmental team region as social finally. Of deep soldier it sign be.\nQuickly throw office edge realize senior by. Smile TV forward herself south able them.","estimatedTime":"6 weeks","previewFileId":"9176ebd3-20ac-44f1-a1e4-5ccec5401fc3","createdByUserId":"1f589755-5891-4051-a66b-a46c55073beb"}'

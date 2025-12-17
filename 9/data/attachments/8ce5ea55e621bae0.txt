@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE1OjQxOjIwLjcwNDU5NSIsInVzZXJfaWQiOiIzODczODgwYi1kM2IxLTQ1NzQtYTFlYS0yYTk5MTllYzljMWYifQ.GgKo1NHlbM7nFamDXqECffHDC34T4JUXw54GH4-eVz0' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Represent PM security property other.","maxScore":91,"minScore":24,"description":"Newspaper movie worker although.\nChurch accept when argue worker. Buy wife PM scene success.\nSouth data about article. Wear price both keep there. Fire save sort would us term science.","estimatedTime":"7 weeks","previewFileId":"3c8ad85a-580e-43c2-8388-0d37ee16f245","createdByUserId":"3873880b-d3b1-4574-a1ea-2a9919ec9c1f"}'

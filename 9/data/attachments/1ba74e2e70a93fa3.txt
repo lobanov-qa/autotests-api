@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/a7ad6fe8-e12e-485d-b5e5-2c43da84074c' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE1OjQxOjIxLjg1MzAyOCIsInVzZXJfaWQiOiI1ZjJkNzc4Yy0xOThmLTQ5MGQtOTQzNi0wNjA1YjA2MzRjNjQifQ.n6gaykL6kLLv_Zmxu5o2fIirNrsNkWYIYUl_LbJuqow' \
+  -H 'content-length: 245' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Employee these rather open exist.","maxScore":97,"minScore":16,"description":"City and article success her rest. Dream teacher cultural professor position my note. Country list they subject training improve.","estimatedTime":"8 weeks"}'

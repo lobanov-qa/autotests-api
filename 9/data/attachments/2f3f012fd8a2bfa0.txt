@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE1OjQxOjI0LjIyOTA3OCIsInVzZXJfaWQiOiI3NWEyMTU1Yi02ZWNjLTRlM2EtYjUyNi03ZjI1YzA1M2FjMmMifQ.tBM5XLuB6n4G5zjlhxdIEBt4XqKUWQayUiTuorc_l3E' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Environmental debate that race effect trade.","courseId":"688d0978-8fde-43b2-b3a1-983d5421a761","maxScore":62,"minScore":23,"orderIndex":1,"description":"Position guess need TV consider. College smile because will him a. Threat could boy mind.\nUpon tonight interview.\nType star head some effort season stage. Statement nature around seek bag site.","estimatedTime":"10 weeks"}'

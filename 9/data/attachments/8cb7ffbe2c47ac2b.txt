@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE1OjQxOjIxLjg1MzAyOCIsInVzZXJfaWQiOiI1ZjJkNzc4Yy0xOThmLTQ5MGQtOTQzNi0wNjA1YjA2MzRjNjQifQ.n6gaykL6kLLv_Zmxu5o2fIirNrsNkWYIYUl_LbJuqow' \
+  -H 'content-length: 430' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Be group among society ago song decision.","maxScore":88,"minScore":30,"description":"Sure apply place watch professor. Must get put manage. Also paper lose chance challenge pass record tree.\nNothing best catch only point floor several without. Total health that act total share.","estimatedTime":"7 weeks","previewFileId":"7ccf87c0-28b7-43df-83ab-c606894f6106","createdByUserId":"5f2d778c-198f-490d-9436-0605b0634c64"}'

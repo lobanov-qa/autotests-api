@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE1OjQxOjI1LjQ1MzY0OSIsInVzZXJfaWQiOiI5MjZmYmQxZS00MTdlLTQzN2EtYWMxNS0wYTY2ZDgyMDM4MmMifQ.cq1tCC06GID7bXeMKTSI7nV-nnHLQYXrnuwMR8JV4WQ' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Training agency charge top response reason.","maxScore":55,"minScore":12,"description":"Point total itself the note subject have. Within last owner beyond first. Give plan improve war.","estimatedTime":"9 weeks","previewFileId":"90199b5c-441f-4ec6-bac2-2bd7de986ac0","createdByUserId":"926fbd1e-417e-437a-ac15-0a66d820382c"}'
