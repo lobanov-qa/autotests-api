@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/c8eaec12-6a51-4a68-919b-b352e4abfaed' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE1OjI2OjE3LjY4NDAwOCIsInVzZXJfaWQiOiJmYjgwMDkyMi0yZDE3LTQ2MWMtOGExMS00ZmQ2ZWJiNGQzMzkifQ.n2MWFoK4nwfKEQquwXrWvBD4davu8x2GCFO6_29MS_A' \
+  -H 'content-length: 297' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Economy able effort shake better investment speech.","maxScore":61,"minScore":26,"description":"Them loss benefit. My resource light week free include. Whole news daughter reality decide son.\nThis it animal car. Space public my most receive behind week then.","estimatedTime":"5 weeks"}'

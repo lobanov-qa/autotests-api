@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE1OjI2OjE4LjMyMzg3MiIsInVzZXJfaWQiOiIyZDUwMDY0OS0wY2Y5LTQxMmUtOGQyZC1kMDVkZjI0ZDA1NjQifQ.j9kNK173cbM4oY28l9ghcLXu8DEUueK2hXfeUCDr4x8' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Work public election fast story street information.","maxScore":79,"minScore":30,"description":"Style consider together. Part city dark economy put. Mrs including student ability together out consumer.\nTrouble own according face cup great everybody.","estimatedTime":"10 weeks","previewFileId":"13b7d1c6-44ee-41c3-88e2-ad75ceb3e7ba","createdByUserId":"2d500649-0cf9-412e-8d2d-d05df24d0564"}'

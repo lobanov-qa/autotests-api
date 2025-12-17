@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE1OjI2OjIxLjM4MzU3MCIsInVzZXJfaWQiOiJhYWM4ZDlhOS01ZDE1LTQ3YTAtYTYyYi03N2I1MDlkYzc3ODQifQ._mP__DNt4ynPiwvYI2VdKdF-1ahFBcLMJWBqfIlhOsc' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Finish me among safe successful.","maxScore":83,"minScore":5,"description":"Music direction court marriage exist maybe. Able son strong respond picture produce.\nClear wind develop just must. Reduce control owner able technology song right.","estimatedTime":"4 weeks","previewFileId":"9929608e-7b56-4622-8ed5-06744c290852","createdByUserId":"aac8d9a9-5d15-47a0-a62b-77b509dc7784"}'

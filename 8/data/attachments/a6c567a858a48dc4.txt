@@ -1,0 +1,22 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:31 Make PATCH request to http://localhost:8000/api/v1/exercises/c768ceac-ffc9-45a8-8f6f-b560f64600de
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises/c768ceac-ffc9-45a8-8f6f-b560f64600de
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:83 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Even notice himself you time body surface leave.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 78
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 29
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Improve top after true. Animal establish music treat move.
+Tv factor make positive themselves we people and. Speak forward experience station note mission.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "order_index" equals to 20
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 4 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema

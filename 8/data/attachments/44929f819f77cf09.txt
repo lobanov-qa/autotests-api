@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE1OjI2OjE3LjY4NDAwOCIsInVzZXJfaWQiOiJmYjgwMDkyMi0yZDE3LTQ2MWMtOGExMS00ZmQ2ZWJiNGQzMzkifQ.n2MWFoK4nwfKEQquwXrWvBD4davu8x2GCFO6_29MS_A' \
+  -H 'content-length: 311' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Despite relationship country high.","maxScore":72,"minScore":25,"description":"About ok draw movement through modern page minute. Quite thought wait beyond upon.","estimatedTime":"1 weeks","previewFileId":"51351a06-e678-466c-974c-4e06c6626475","createdByUserId":"fb800922-2d17-461c-8a11-4fd6ebb4d339"}'

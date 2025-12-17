@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE1OjI2OjIwLjcxMjEzMiIsInVzZXJfaWQiOiJkZDQxMzBiNy1jY2ZmLTQ1YzUtYTE3OS1mNGE3ZTQzYzk5NGUifQ.hkF7sr9DpB__aMqrb6cM7mqFpXFKBlHnNxVWQqwycSQ' \
+  -H 'content-length: 293' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Able between top suddenly memory suffer employee.","courseId":"0962644f-1be4-41c2-bb35-1e5dfb308651","maxScore":62,"minScore":30,"orderIndex":62,"description":"Doctor red four skin ground. Property kitchen fast. Congress kind choice true structure action.","estimatedTime":"1 weeks"}'

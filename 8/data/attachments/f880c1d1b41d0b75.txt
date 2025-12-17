@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/c768ceac-ffc9-45a8-8f6f-b560f64600de' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE1OjI2OjE5LjQ4OTgyMCIsInVzZXJfaWQiOiJjZTU5NTMxZS0wMWIwLTQ1ZTYtODkxOC0zYmUwMmYxNmFmODUifQ.PtPuralq5MLkDCDBSnXV0dFJHKqMuyi6HKR-cJicyac' \
+  -H 'content-length: 303' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Even notice himself you time body surface leave.","maxScore":78,"minScore":29,"orderIndex":20,"description":"Improve top after true. Animal establish music treat move.\nTv factor make positive themselves we people and. Speak forward experience station note mission.","estimatedTime":"4 weeks"}'

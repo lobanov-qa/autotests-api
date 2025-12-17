@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE1OjI2OjE5LjQ4OTgyMCIsInVzZXJfaWQiOiJjZTU5NTMxZS0wMWIwLTQ1ZTYtODkxOC0zYmUwMmYxNmFmODUifQ.PtPuralq5MLkDCDBSnXV0dFJHKqMuyi6HKR-cJicyac' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Natural source professor life threat moment produce.","maxScore":77,"minScore":14,"description":"Agreement trouble far move source finally respond suggest. Military final agreement ago something over.\nAlways behind them identify protect.","estimatedTime":"3 weeks","previewFileId":"86cc088e-8a25-49d9-a8a9-c7d042f0ae91","createdByUserId":"ce59531e-01b0-45e6-8918-3be02f16af85"}'

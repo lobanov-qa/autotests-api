@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE1OjI2OjIwLjcxMjEzMiIsInVzZXJfaWQiOiJkZDQxMzBiNy1jY2ZmLTQ1YzUtYTE3OS1mNGE3ZTQzYzk5NGUifQ.hkF7sr9DpB__aMqrb6cM7mqFpXFKBlHnNxVWQqwycSQ' \
+  -H 'content-length: 318' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bar approach note.","maxScore":98,"minScore":21,"description":"Treat fire everything at. Simply try reach whatever concern. National example perhaps because after card.","estimatedTime":"6 weeks","previewFileId":"ea4b0b21-8059-4dfa-807c-3f4dd8d8f06a","createdByUserId":"dd4130b7-ccff-45c5-a179-f4a7e43c994e"}'
