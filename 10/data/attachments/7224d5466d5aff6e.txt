@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE1OjQzOjM3LjIyMzM4OSIsInVzZXJfaWQiOiJmMGM3ZWFiNi1jMjUyLTQ3YzYtYWI2Mi04M2M5ZDFhNjFhMGYifQ.RneEmoQnnWFVFhvOkmame_kGMRVzWYM9X7Zynj3PpKM' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Last police form list do soon.","maxScore":84,"minScore":4,"description":"Four fine my across carry. Act picture way fund.\nUnit meet he wall understand school local. Home item practice need include nice break. Low live everybody not.","estimatedTime":"5 weeks","previewFileId":"94834d16-bbc2-4e56-b15b-600b23108021","createdByUserId":"f0c7eab6-c252-47c6-ab62-83c9d1a61a0f"}'

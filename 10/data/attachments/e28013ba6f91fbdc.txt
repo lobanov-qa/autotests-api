@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE1OjQzOjM2LjYzNzU5NSIsInVzZXJfaWQiOiI2Nzc0NjllMy0yYTUyLTRjNzUtYTliZC0yNTg3MjZlMTBiYmYifQ.rva2a4LWBFsKnUT-nLE6ebOJEzkGoDxqG6GSlYg3vqA' \
+  -H 'content-length: 365' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Appear kitchen policy half surface.","maxScore":58,"minScore":27,"description":"Foreign practice foreign. Keep responsibility total edge.\nClose include value boy. Onto town foot. Old address feel despite head show.","estimatedTime":"7 weeks","previewFileId":"3b1018d6-7d6b-4b3e-9638-2b84fd840805","createdByUserId":"677469e3-2a52-4c75-a9bd-258726e10bbf"}'

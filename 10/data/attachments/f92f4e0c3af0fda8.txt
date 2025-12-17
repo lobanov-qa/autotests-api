@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE1OjQzOjM5LjYzODU1MiIsInVzZXJfaWQiOiJjZTVkNDdjOS01OTZhLTQxMzktODgzYS1hMzNkNjZkOTJmYjUifQ.V2lin8UVd7O9RvfBBF22i1Xq_yP0uCbtfPSGax0IkR8' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Kitchen president remain word role read sometimes they.","maxScore":68,"minScore":24,"description":"Resource account structure feeling whole show else. Soon white image describe.\nPurpose imagine talk. Natural half drug police seek paper.","estimatedTime":"5 weeks","previewFileId":"74af4902-bc96-4736-8847-1d534e88fbfe","createdByUserId":"ce5d47c9-596a-4139-883a-a33d66d92fb5"}'

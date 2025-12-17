@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE1OjQzOjM4LjQ1MzU1MCIsInVzZXJfaWQiOiJjNzIzYzVkNy0wZmFmLTQyMGUtYjQwYy0xNTY3YzY1ZmZlZTgifQ.Y7vCwhoDlISYds1Npl2EJZnLJ9WQD2-Qfv9GYyCRhQ8' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Summer suddenly enter would be recently.","maxScore":97,"minScore":22,"description":"Fly rather court. Use meeting while argue red could month.\nOr close significant five. Show mention politics actually. There leave without strategy southern beautiful already.","estimatedTime":"8 weeks","previewFileId":"ff5178cd-4e87-4188-a3b0-b48f11aa1518","createdByUserId":"c723c5d7-0faf-420e-b40c-1567c65ffee8"}'

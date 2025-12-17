@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/5b54ddcf-29a3-4824-8614-2d80626603d0' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE1OjQzOjM3LjIyMzM4OSIsInVzZXJfaWQiOiJmMGM3ZWFiNi1jMjUyLTQ3YzYtYWI2Mi04M2M5ZDFhNjFhMGYifQ.RneEmoQnnWFVFhvOkmame_kGMRVzWYM9X7Zynj3PpKM' \
+  -H 'content-length: 272' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Put energy what power traditional report never.","maxScore":61,"minScore":21,"description":"Whose focus sense learn play hold. Order skill authority low get head board. Part use goal alone analysis debate throughout.\nFrom bill skill.","estimatedTime":"1 weeks"}'

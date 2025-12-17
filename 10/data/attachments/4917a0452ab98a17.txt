@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/exercises/976eaabe-7fb1-4d63-967a-8ff30f464932
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises/976eaabe-7fb1-4d63-967a-8ff30f464932
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:67 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:43 Check exercise
+INFO     BASE_ASSERTIONS:base.py:37 Check that "id" equals to 976eaabe-7fb1-4d63-967a-8ff30f464932
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Table believe level window prove where challenge.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 54
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 18
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Peace former group world energy six. Citizen system full better fast director economic. Even hit building source none discuss place image.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 2 weeks
+INFO     BASE_ASSERTIONS:base.py:37 Check that "order_index" equals to 34
+INFO     BASE_ASSERTIONS:base.py:37 Check that "course_id" equals to 67f843ff-e66b-4ecd-a94d-293544def506
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema

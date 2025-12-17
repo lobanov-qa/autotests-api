@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE1OjQzOjQwLjkwNzY3NiIsInVzZXJfaWQiOiIxODM5ZWQ2NC03MmJkLTRiNTUtYmFhNC0xNmNhYzdmZGIyZDUifQ.jdMg4nCY1vHsrL-285sYLewCfEOzDH4hXgr6dz1YTK8' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Another total consider cup perform.","maxScore":81,"minScore":10,"description":"Sing safe PM heart condition. All before up avoid. Remember community wonder big factor degree candidate well.\nPoint rock something dog.","estimatedTime":"2 weeks","previewFileId":"6b45b847-af44-45ff-ba0a-59b2456ba4ff","createdByUserId":"1839ed64-72bd-4b55-baa4-16cac7fdb2d5"}'

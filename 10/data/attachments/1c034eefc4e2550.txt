@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE1OjQzOjQwLjI4OTMxNCIsInVzZXJfaWQiOiI2OThlM2M5NS1kM2ZmLTQzMTAtOGI5OC1hNGUwMTc3ZWQ5ZjUifQ.RlNfYSxs3uPcQR2GMB3kLNQLOTJmJCN8IYSmnJnUsuI' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Prevent other once then ready green capital.","maxScore":55,"minScore":19,"description":"Want local kid parent have challenge although not. Manager forward walk near garden old course. Simple radio model or however house. Shoulder admit land floor Democrat shoulder.","estimatedTime":"6 weeks","previewFileId":"ade28f27-61f6-4e40-9a08-efd21a547756","createdByUserId":"698e3c95-d3ff-4310-8b98-a4e0177ed9f5"}'
