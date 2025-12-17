@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDA0OjExOjE3LjA0MzE5OCIsInVzZXJfaWQiOiI0MTRkYmZiOC0wMjFmLTQ4OGItOTM1Yi1jNDg2ZTFiZGU3MTgifQ.OHWHzLba_9PldMFPQWZZrNMqGu6wz5lyf_BJfGbPnWs' \
+  -H 'content-length: 425' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Can base arrive professor describe.","maxScore":98,"minScore":25,"description":"Glass entire these exactly particular forward. Picture spring include Congress consumer sort. Road always hair agreement walk continue head.\nStop thought agency month drug hope pretty character.","estimatedTime":"7 weeks","previewFileId":"864f9d10-9974-4ae4-8296-6d073622e858","createdByUserId":"414dbfb8-021f-488b-935b-c486e1bde718"}'

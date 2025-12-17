@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDA0OjExOjE3LjYzNTE5OSIsInVzZXJfaWQiOiJkMzNjM2MyZi02ZjgyLTRmMzMtOTgwYS1iOGZiMzI4NTBhMWQifQ.ovQJ33pYV1906Dn1I72JWYkGlTimm2jgpvzhumbkLZA' \
+  -H 'content-length: 318' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Change development lawyer better want.","maxScore":81,"minScore":13,"description":"Benefit possible much method no since. Character eight animal model father could say.","estimatedTime":"5 weeks","previewFileId":"490c5ca9-ce26-4778-a4da-95f2813b8327","createdByUserId":"d33c3c2f-6f82-4f33-980a-b8fb32850a1d"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDA0OjExOjE4LjgwNTI1NyIsInVzZXJfaWQiOiI4NWVmZDA2ZC0yOGUwLTQ4YzctYTEyNi03MGQzODI1ODA3ZDQifQ.NJQhwFmxHxyETvqsYK2CApotdMgAZ1uPk_pYm4MI40M' \
+  -H 'content-length: 355' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Buy glass age dark.","courseId":"4381674e-1f5b-46ef-b000-b53d17f25320","maxScore":92,"minScore":24,"orderIndex":57,"description":"Standard middle themselves interesting reason possible represent. Public popular degree glass election.\nScene statement address consumer hold lot as mean. Learn any season some recently.","estimatedTime":"3 weeks"}'

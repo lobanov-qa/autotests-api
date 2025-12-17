@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/b1516362-bab7-486d-9904-6da9ef3ce679' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDA0OjExOjE3LjYzNTE5OSIsInVzZXJfaWQiOiJkMzNjM2MyZi02ZjgyLTRmMzMtOTgwYS1iOGZiMzI4NTBhMWQifQ.ovQJ33pYV1906Dn1I72JWYkGlTimm2jgpvzhumbkLZA' \
+  -H 'content-length: 254' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Amount run cause under somebody bank.","maxScore":76,"minScore":22,"description":"Argue year explain discuss so book blood physical. Instead responsibility interview American. Church before executive manager realize.","estimatedTime":"2 weeks"}'

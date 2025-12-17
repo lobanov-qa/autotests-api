@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDA0OjExOjIwLjYxMDE2NyIsInVzZXJfaWQiOiJhNDE5MmQzZS1lNWUwLTQ4Y2YtYTg2MC1iZmJkMGI5NGQxZmQifQ.5RwMn3AZWckUI3o7t4kH5XTd-oVZ6ZtcOTDdonwCY_8' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Over crime task.","maxScore":81,"minScore":24,"description":"Rich goal million head. Successful strategy year. Do suffer reflect institution throw.\nGas culture put hair main. It life can about huge police.","estimatedTime":"3 weeks","previewFileId":"f638a5aa-b46f-42d5-a94c-de5732bc6b20","createdByUserId":"a4192d3e-e5e0-48cf-a860-bfbd0b94d1fd"}'

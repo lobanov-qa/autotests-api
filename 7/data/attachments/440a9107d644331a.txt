@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDA0OjExOjIxLjIyMTg2NiIsInVzZXJfaWQiOiI1ZmI3OTQzNy0xZGI1LTRjY2UtOGI4NS0xZWNkNzE5NmRiOGUifQ.LIc0Sd6lMiuIbuYws2n5ovOv1S2IdDKdl2Lv6MJChKI' \
+  -H 'content-length: 325' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fast yourself full.","maxScore":64,"minScore":17,"description":"Without recent floor environmental girl physical threat. Health beyond alone nearly per chance. Firm fine just.","estimatedTime":"6 weeks","previewFileId":"ae1a0b43-cba4-4977-ae06-2e0beddf2f03","createdByUserId":"5fb79437-1db5-4cce-8b85-1ecd7196db8e"}'

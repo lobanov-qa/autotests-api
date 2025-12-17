@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDA0OjExOjE4LjgwNTI1NyIsInVzZXJfaWQiOiI4NWVmZDA2ZC0yOGUwLTQ4YzctYTEyNi03MGQzODI1ODA3ZDQifQ.NJQhwFmxHxyETvqsYK2CApotdMgAZ1uPk_pYm4MI40M' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Then ten more ahead well.","maxScore":51,"minScore":5,"description":"Wear speak operation contain him this environmental. Run on step look central old nor. Woman employee up develop west tend go.","estimatedTime":"2 weeks","previewFileId":"48e66b7b-59bc-4b94-af44-43bd4fd45f30","createdByUserId":"85efd06d-28e0-48c7-a126-70d3825807d4"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDA0OjExOjE5Ljk4Mzg2MiIsInVzZXJfaWQiOiI3ODFkZmMyNS0zOTVjLTRiNTEtYjIyNi0wNDVhMTNjNjZkYTYifQ.OjRHgNCC5dC4IKtqdoowrg9eYZmhSh3wTRQDVq5jqS4' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Common wide itself individual community continue the staff.","maxScore":90,"minScore":9,"description":"Chair keep up sign.\nSense value growth toward ever soon. Agreement former gun similar. Long fear discuss throw to though seat.","estimatedTime":"8 weeks","previewFileId":"d68e47d8-a153-4fac-ac67-b928984f66dd","createdByUserId":"781dfc25-395c-4b51-b226-045a13c66da6"}'

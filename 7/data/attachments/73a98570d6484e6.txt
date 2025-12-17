@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDA0OjExOjE5LjM5MDY1OSIsInVzZXJfaWQiOiJmODFhYzU4Yi1kNDVjLTRmOTEtODk3ZS1hMTM0OTIwNWU5NTMifQ.Ugbq9eVsYUvjCGPTuWftJwW6X2RpbMO2GC8TN_8rLdU' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Market purpose throughout event month.","maxScore":93,"minScore":4,"description":"Card effect budget teach send agency attack including. Let fire whom kind sort present item. Listen mission minute rock check prevent.","estimatedTime":"9 weeks","previewFileId":"4da3448e-8d7d-4a6b-878d-4ee0e2a35d6f","createdByUserId":"f81ac58b-d45c-4f91-897e-a1349205e953"}'
