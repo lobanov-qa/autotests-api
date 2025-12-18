@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/bf62aaab-f13f-446b-b813-35d62dd69c35' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA4OjMwOjE2LjI4MTIxNiIsInVzZXJfaWQiOiIzM2EwZWMyMy00OGM0LTQwMDQtYTBjYi01MTc1ZGQ4MzlhNTMifQ.K3NgcaVRkude-DQgSc5_oVkwMqJVfTJFpfmSiFKVVdA' \
+  -H 'content-length: 260' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Design alone artist yet soldier tonight.","maxScore":55,"minScore":24,"description":"Deal market within direction. Woman set theory ok another.\nManager lead protect skin ahead. Party throughout offer different mother two.","estimatedTime":"6 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA4OjMwOjE1LjEyOTk3NyIsInVzZXJfaWQiOiJlZTliNDUwZS1iNjdkLTQyMDQtYjdlMC1jYTI4OGE0MTk4NjcifQ.aybvtPTmo_bOevp_hfM0LlvxHbN5TKKtCC5v1qD_zvY' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Piece Mr to human as.","maxScore":69,"minScore":1,"description":"Arm individual country detail dinner dinner. Should smile possible. Water reality smile.\nSuggest TV red teach new. For research method factor pressure morning hold change.","estimatedTime":"2 weeks","previewFileId":"d4d914d4-b9ee-4ca7-afd4-bbaf324a1897","createdByUserId":"ee9b450e-b67d-4204-b7e0-ca288a419867"}'

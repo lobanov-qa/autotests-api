@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA4OjMwOjE4Ljk0NzkxNiIsInVzZXJfaWQiOiIwNzMwNzU4My0zMGNhLTQ3YTItODA1Yi02MzkyZjg1OTdjYzcifQ.Z4djr4oCx_b6MuoK208t6VjsDQxy3YYqnyB_Mo7zSoU' \
+  -H 'content-length: 307' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Treatment figure score sense.","courseId":"2ec432a7-fc47-4ec2-9307-cfd7607e5a6c","maxScore":58,"minScore":26,"orderIndex":94,"description":"Help much lose wind popular myself. Do show challenge real stage. Behavior offer senior until thank economy. Left term follow we.","estimatedTime":"2 weeks"}'

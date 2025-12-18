@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA4OjMwOjE3LjQ3OTgyNiIsInVzZXJfaWQiOiI3M2M2M2Y0ZS0yMmFjLTQ3ODEtOWNmZC04ZTcxMzAzNmMzNWIifQ.V0PwAuCgFSz7Ox88mfPhLSUGjx7GGvpaeHm-ynOyeEU' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Last official way management table wear.","courseId":"4b17b077-e63a-426b-8de9-027cabd7aba3","maxScore":89,"minScore":7,"orderIndex":97,"description":"Next southern cost military government. Bag enjoy world third side.\nFederal fast owner public wind crime. Design floor really member police inside. Either moment best.","estimatedTime":"2 weeks"}'

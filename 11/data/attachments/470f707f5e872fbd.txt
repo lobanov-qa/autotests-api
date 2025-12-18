@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA4OjMwOjE5LjkwODc1NSIsInVzZXJfaWQiOiI3MThkNWQ1OS0zNTZhLTRmMDYtOWY5YS1iMzhlOWIzNjc4NmUifQ.rBOKzjNVCyG88ngHGL-uZ6fEBDFmm2Iwer3OkUcB26g' \
+  -H 'content-length: 330' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Better store hotel.","maxScore":96,"minScore":5,"description":"Reduce election daughter style quite situation help level. Go federal everything woman information center high spend.","estimatedTime":"9 weeks","previewFileId":"7549836c-bfab-4942-b051-8819aba17965","createdByUserId":"718d5d59-356a-4f06-9f9a-b38e9b36786e"}'

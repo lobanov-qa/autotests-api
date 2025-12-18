@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA4OjMwOjE2LjU1NDE3MSIsInVzZXJfaWQiOiI5MTJjN2Q0NC02ZTlhLTQ3NWUtODc5OS1jNDgyYzA4OTEzZmUifQ.MeHdcV3Ph_ZsFV0ivit3-ZP0I5YHjMxuzoqtUWZ5UFk' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Yard grow yes.","maxScore":90,"minScore":21,"description":"Support itself the animal. Industry country summer authority door.\nAnd door poor who food affect per. Chair fly very still former care real. Large discover message training.","estimatedTime":"3 weeks","previewFileId":"5318a31c-aa25-47a6-8df1-78bae89283d7","createdByUserId":"912c7d44-6e9a-475e-8799-c482c08913fe"}'

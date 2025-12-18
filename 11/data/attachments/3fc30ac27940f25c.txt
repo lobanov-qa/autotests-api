@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA4OjMwOjE2LjI4MTIxNiIsInVzZXJfaWQiOiIzM2EwZWMyMy00OGM0LTQwMDQtYTBjYi01MTc1ZGQ4MzlhNTMifQ.K3NgcaVRkude-DQgSc5_oVkwMqJVfTJFpfmSiFKVVdA' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Reason for nature relate quickly degree evening.","maxScore":51,"minScore":19,"description":"Raise million president mention. Participant life night for performance message.\nDrop position out level find leader. Environment nothing interest state street career him move.","estimatedTime":"10 weeks","previewFileId":"fd200ae4-7699-4f25-829a-06627c51279d","createdByUserId":"33a0ec23-48c4-4004-a0cb-5175dd839a53"}'

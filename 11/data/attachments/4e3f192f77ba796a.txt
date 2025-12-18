@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA4OjMwOjE3Ljc1MjU2MCIsInVzZXJfaWQiOiI5OTZlNDUyNi0zZjI3LTRhOTctYmU5OS01NGU3NjM4ODhkNzUifQ.bgUx6215RkvwX24VOP3hQxPqyLOMG0e6aXuS9ALE88M' \
+  -H 'content-length: 438' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Serious list enjoy voice care talk involve.","maxScore":59,"minScore":27,"description":"Raise seven among the radio. Success amount message decade.\nAmong class operation put around source present. Safe operation sound simply break. Everybody summer knowledge young top money everyone or.","estimatedTime":"4 weeks","previewFileId":"28d86260-d792-461d-8f7d-4ed7543cf26e","createdByUserId":"996e4526-3f27-4a97-be99-54e763888d75"}'

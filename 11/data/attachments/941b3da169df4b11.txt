@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA4OjMwOjE4Ljk0NzkxNiIsInVzZXJfaWQiOiIwNzMwNzU4My0zMGNhLTQ3YTItODA1Yi02MzkyZjg1OTdjYzcifQ.Z4djr4oCx_b6MuoK208t6VjsDQxy3YYqnyB_Mo7zSoU' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Positive someone dream senior.","maxScore":68,"minScore":17,"description":"Single foreign ability become whom perform analysis. Girl example culture.\nDemocrat business store teach station boy deal really. Develop thank develop cover accept. Happy each hard sport.","estimatedTime":"10 weeks","previewFileId":"a0fa3905-305a-4cf7-a9b7-70acb1613396","createdByUserId":"07307583-30ca-47a2-805b-6392f8597cc7"}'

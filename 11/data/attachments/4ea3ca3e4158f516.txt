@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA4OjMwOjE4LjY3NDM1MiIsInVzZXJfaWQiOiIyOTJlNzNkZS05YTcxLTQyODQtYjBmZC1jZTQ5ZGNkMGJkNDIifQ.fpX4xctFe22-bfWCUqT6SUn8YfOSG-1CL3sgAlTUnvk' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Push product home leg.","maxScore":88,"minScore":19,"description":"Miss wind address term. Design week hair two hand recently. Apply party that rule one woman consumer.\nAlways since economy skin painting.\nElection kid table. List south mention feeling result.","estimatedTime":"9 weeks","previewFileId":"a91e9c0c-6b94-41b4-ad97-29672140d2ee","createdByUserId":"292e73de-9a71-4284-b0fd-ce49dcd0bd42"}'
