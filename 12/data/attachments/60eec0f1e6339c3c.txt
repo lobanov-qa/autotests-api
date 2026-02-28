@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI4VDE0OjIxOjA2LjY3MjYxOSIsInVzZXJfaWQiOiI1Yzg0NDJmZC0wYzgzLTQ5MDUtOGM3Mi02NWY4ZmI0OGI2YTEifQ.M9IXETrg9RNb40CTb6PjeARg-PgpzeAqApExJX6CrpQ' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sound not shoulder success measure despite help education.","maxScore":90,"minScore":2,"description":"Court knowledge family laugh few million. Both available game agent. Agree who success.\nRead lead student. Yourself small exactly.","estimatedTime":"4 weeks","previewFileId":"72708cba-50fc-480a-a38e-5f7db4d1ae96","createdByUserId":"5c8442fd-0c83-4905-8c72-65f8fb48b6a1"}'

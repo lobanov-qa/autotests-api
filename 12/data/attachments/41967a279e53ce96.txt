@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI4VDE0OjIxOjEwLjEwNjIyOCIsInVzZXJfaWQiOiJiZWNkNTQyNy1kMGIwLTRlMGItOGZiNS1kYzNkYjUzNzQzMTcifQ.AKdtMhj-GRIIRUGwA80ZJjRiFLegm49hpTXaXkBKKw0' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Organization together simply someone inside than personal.","maxScore":83,"minScore":22,"description":"Manager recent pretty drive bill usually type. Wrong computer summer traditional standard eight.","estimatedTime":"6 weeks","previewFileId":"6c31bd85-febe-4835-938b-85c732f9a750","createdByUserId":"becd5427-d0b0-4e0b-8fb5-dc3db5374317"}'

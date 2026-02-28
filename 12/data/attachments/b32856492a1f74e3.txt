@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI4VDE0OjIxOjA3Ljg5NTIyMiIsInVzZXJfaWQiOiIzZjQ5NGU0Ni1jOGViLTQzOTAtYjk2OS1hM2MwZTc3MjExYTkifQ.I29NStmlE2tqFbGmktxDYStCCwNcUlWPf1qky5OELkc' \
+  -H 'content-length: 378' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Heavy first tell bed a discussion.","maxScore":65,"minScore":27,"description":"Political music fund cover main. Oil view plant him our.\nTwo word hair customer. Red unit you middle radio car. Hope everybody evidence body season.","estimatedTime":"2 weeks","previewFileId":"7c1a85c1-547f-45c2-98c0-556b31b8ed62","createdByUserId":"3f494e46-c8eb-4390-b969-a3c0e77211a9"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI4VDE0OjIxOjExLjM0MTEyNCIsInVzZXJfaWQiOiI5Yjg3NjhkOC0xZGExLTQ2MDYtOGE5ZC1hMjMwZDc3MWVjNjEifQ.Imo1iGJqwQtq1INjR4pYtxI1fMYdx-rHutDgAp71PCI' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rule senior manager.","maxScore":54,"minScore":14,"description":"Line such so toward subject one. Current firm most.\nAfter hit next fight its campaign civil. Story cup not see. Final now join month economic speech expect.","estimatedTime":"4 weeks","previewFileId":"39a5dbf2-65e3-407e-831d-612136e774a0","createdByUserId":"9b8768d8-1da1-4606-8a9d-a230d771ec61"}'

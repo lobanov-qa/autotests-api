@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI4VDE0OjIxOjEwLjM3OTc3MiIsInVzZXJfaWQiOiI4YTc1MTljOS0xNTIzLTQ4OTgtYWM1My01NjA2MDM1N2FlMGUifQ.rUMFvR67mx7Uf48SVKJDVxQUIkzFZfDVMuvQ157OPmc' \
+  -H 'content-length: 378' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Attorney however surface deep mission lot.","maxScore":84,"minScore":19,"description":"During ready responsibility pressure less purpose heart. Situation design vote call power anything. Pass benefit tell hundred sister itself.","estimatedTime":"10 weeks","previewFileId":"a96aa3ec-78fc-4b2d-8b46-3d3f80e88ff5","createdByUserId":"8a7519c9-1523-4898-ac53-56060357ae0e"}'

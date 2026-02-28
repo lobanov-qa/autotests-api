@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/exercises?courseId=c14e5c88-ff29-4fc9-a490-6244d05d61fe
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=c14e5c88-ff29-4fc9-a490-6244d05d61fe
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:118 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:72 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:43 Check exercise
+INFO     BASE_ASSERTIONS:base.py:37 Check that "id" equals to d3fb7db5-2662-4a0b-bad4-da9c34f25582
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Community spring behind party push learn.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 66
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 18
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Family expert summer sign blue heart. Million boy according participant often environment.
+Need green interest site. Industry shoulder project prepare. Approach base kid especially serve.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 8 weeks
+INFO     BASE_ASSERTIONS:base.py:37 Check that "order_index" equals to 46
+INFO     BASE_ASSERTIONS:base.py:37 Check that "course_id" equals to c14e5c88-ff29-4fc9-a490-6244d05d61fe
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema

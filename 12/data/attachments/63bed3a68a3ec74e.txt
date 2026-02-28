@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/b0ccb3e7-ff5b-4063-b37a-18539699a20b' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI4VDE0OjIxOjA3LjMwNDg2MSIsInVzZXJfaWQiOiI4M2UxNmYwNy0wYmRkLTQxYzUtOGQ3OC0wZTdiYWZkMzdkYzEifQ.7Zd_mlwa_LXkElvDMrij29IQmcOYZ_7suAvPToJFoKo' \
+  -H 'content-length: 274' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Meet bill road set cut ahead.","maxScore":64,"minScore":4,"description":"Gun prove ready growth age early radio. Let teach family think gas market close.\nWhatever the else else. Member water situation school probably look trip serious.","estimatedTime":"5 weeks"}'

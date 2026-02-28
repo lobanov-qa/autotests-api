@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI4VDE0OjIxOjA5LjA0OTM2OCIsInVzZXJfaWQiOiI1ZDUwMDRkYS1jYTM1LTQ5ZDctOTgyMS1jOWE4NmEyMTBiMjQifQ.DrfMLeui_6PtChK1GxC-FXCq8ek5O1d5_NCWmyFqATY' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Trouble however smile education grow.","maxScore":94,"minScore":28,"description":"Because direction beat hold. Star Mr politics involve. Local city number everyone church.\nStudent only property coach live car behavior. Play same south support.","estimatedTime":"1 weeks","previewFileId":"ecb63d84-1c85-4cea-a8b8-22f1c0ed6c25","createdByUserId":"5d5004da-ca35-49d7-9821-c9a86a210b24"}'

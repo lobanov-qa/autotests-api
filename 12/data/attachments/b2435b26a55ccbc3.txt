@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI4VDE0OjIxOjA3LjMwNDg2MSIsInVzZXJfaWQiOiI4M2UxNmYwNy0wYmRkLTQxYzUtOGQ3OC0wZTdiYWZkMzdkYzEifQ.7Zd_mlwa_LXkElvDMrij29IQmcOYZ_7suAvPToJFoKo' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"From mind base wrong on the place event.","maxScore":71,"minScore":30,"description":"Same rule lot moment dark. Rather again toward southern also newspaper himself. Own foreign grow available great before.\nOthers number small. Matter term reality sometimes threat that.","estimatedTime":"8 weeks","previewFileId":"c96404f2-03d1-4deb-bf0d-35e87d78a39a","createdByUserId":"83e16f07-0bdd-41c5-8d78-0e7bafd37dc1"}'
