@@ -18,3 +18,6 @@ coverage-history.json
 
 
 .continue/
+.serena/
+in-memoria-vectors.db/
+in-memoria.db

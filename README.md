@@ -1,26 +1,96 @@
-# API Course Automation Tests
+# 🚀 API Automation Framework (Python + Pytest)
 
-This project implements automated tests for
-the [API Course Test Server](https://github.com/Nikita-Filonov/qa-automation-engineer-api-course). The
-tests are written using **Python**, **Pytest**, **Allure**, **Pydantic**, **Faker** and **HTTPX**. The test
-application’s source code is available on [GitHub](https://github.com/Nikita-Filonov/qa-automation-engineer-api-course).
+## **English** | **[Russian](docs/README_RU.md)**
 
-## Project Overview
+**This project was created as part of the ["API Test Automation with Python" ](https://stepik.org/course/233196/info) course.  Implementation of a test framework for the [API Course Test Server](https://github.com/Nikita-Filonov/qa-automation-engineer-api-course)**
 
-The goal of this project is to automate the testing of the API Course server, focusing on REST API testing. The
-automated tests verify various functionalities of the application to ensure its stability and correctness.
+[![API tests](https://github.com/lobanov-qa/autotests-api/actions/workflows/tests.yml/badge.svg)](https://github.com/lobanov-qa/autotests-api/actions/workflows/tests.yml) ![Python](https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=ffdd54) ![Pytest](https://img.shields.io/badge/pytest-%23ffffff.svg?style=flat-square&logo=pytest&logoColor=2f9fe3) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat-square&logo=git&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=flat-square&logo=githubactions&logoColor=white) 
 
-This project is specifically designed for API autotests, incorporating best practices such as:
+---
 
-- API Clients for structured interaction with endpoints,
-- Pytest fixtures for reusable and maintainable test setups,
-- Pydantic models for strict data validation,
-- Schema validation to ensure API contract correctness,
-- Fake data generation to simulate real-world scenarios,
-- And more advanced techniques to improve test efficiency and reliability.
-- The project structure follows industry standards to ensure clarity, maintainability, and scalability of the test code.
+## 🛠 What was implemented in this project
 
-## Getting Started
+### Modern stack for API testing
+- **Pytest** — framework for writing tests, working with fixtures and parameterization.
+- **HTTPX** — HTTP client with async support, request/response logging.
+- **Pydantic** — data validation, working with request and response models.
+- **Swagger-coverage-tool** — tracking API coverage against OpenAPI specifications.
+- **Faker** — generation of realistic test data.
+- **Allure** — detailed reports with logging and curl commands.
+
+---
+
+### Practices I mastered in the course
+- **Working with Pytest** — fixtures, markers, parameterization, plugins.
+- **Testing REST API** — response validation, error handling, authorization.
+- **Writing API clients** for structured interaction with endpoints.
+- **Organizing test code** — separation into clients, tests, utilities, configs.
+- **Setting up Allure reports** — annotations, steps, attaching logs and curl commands.
+- **Validating data** — JSON Schema, custom assertions.
+- **HTTP request logging** — automatic generation of curl commands for debugging.
+
+And other advanced techniques to improve test efficiency and reliability.
+
+The project structure follows industry standards to ensure readability, maintainability, and scalability of test code.
+
+---
+
+## 💡 Test example from the project
+
+```python
+# Test for updating a course — example structure
+@allure.story(AllureStory.UPDATE_ENTITY)
+@allure.severity(Severity.CRITICAL)
+def test_update_course(self, courses_client: CoursesClient, function_course: CourseFixture):
+    request = UpdateCourseRequestSchema()
+    response = courses_client.update_course_api(function_course.response.course.id, request)
+    response_data = UpdateCourseResponseSchema.model_validate_json(response.text)
+
+    assert_status_code(response.status_code, HTTPStatus.OK)
+    assert_update_course_response(request, response_data)
+    validate_json_schema(response.json(), response_data.model_json_schema())
+```
+
+---
+
+## 💡 Example client implementation
+
+```python
+class AuthenticationClient(APIClient):
+    """
+    Client for working with /api/v1/authentication
+    """
+
+    @allure.step("Authenticate user")
+    @tracker.track_coverage_httpx(f"{APIRoutes.AUTHENTICATION}/login")
+    def login_api(self, request: LoginRequestSchema) -> Response:
+        """
+        Method performs user authentication.
+
+        :param request: Dictionary with email and password.
+        :return: Server response as httpx.Response object
+        """
+        return self.post(f"{APIRoutes.AUTHENTICATION}/login", json=request.model_dump(by_alias=True))
+```
+
+---
+
+## 📁 Project structure
+
+The project is built using a **domain structure** for clean code maintenance:
+
+- `clients/` — API clients for each service (authentication, courses, users...).
+- `tests/` — tests grouped by the same domains.
+- `fixtures/` — Pytest fixtures for data preparation.
+- `tools/` — helper utilities (Allure config, assertions).
+- `config.py` — project settings and common fixtures.
+
+---
+
+
+## 🚀 Getting Started
+
+> ⚠️ **Important:** the project tests the educational [qa-automation-engineer-api-course](https://github.com/Nikita-Filonov/qa-automation-engineer-api-course)  platform, which must be running locally.
 
 ### Clone the Repository
 
@@ -77,3 +147,18 @@ allure serve allure-results
 ```
 
 This command will open the Allure report in your default web browser.
+
+
+---
+
+## 📞 Contacts
+
+Looking for an opportunity to start a career in test automation. Ready for test tasks, code reviews, and interviews.
+
+- **GitHub:** [lobanov-qa](https://github.com/lobanov-qa)
+- **LinkedIn:** [evgenii-lobanov-qa](https://www.linkedin.com/in/evgenii-lobanov-qa/)
+- **Telegram:** [lobanov_e_i](https://t.me/lobanov_e_i)
+
+---
+
+*Project created as part of the ["API Test Automation with Python" course](https://stepik.org/course/233196/info) (author — Nikita Filonov).*
