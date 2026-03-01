@@ -1,0 +1,33 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/courses?userId=38e4f508-8d77-41cb-8097-86c0fdb3cfba
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=38e4f508-8d77-41cb-8097-86c0fdb3cfba
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:69 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:72 Check that length of "courses" equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:43 Check course
+INFO     BASE_ASSERTIONS:base.py:37 Check that "id" equals to 4c972678-5324-49e5-bea8-437380202b79
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Common prepare concern firm serve care.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 72
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 24
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Walk news somebody face real. Especially pattern walk city. Agreement well short bad.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 10 weeks
+INFO     FILES_ASSERTIONS:files.py:41 Check file
+INFO     BASE_ASSERTIONS:base.py:37 Check that "id" equals to c3494b58-b90b-4434-bb93-de47d23d2c2b
+INFO     BASE_ASSERTIONS:base.py:37 Check that "url" equals to http://localhost:8000/static/tests/c01f62aa-ccdc-4f52-be64-f811aafdd6f7.png
+INFO     BASE_ASSERTIONS:base.py:37 Check that "filename" equals to c01f62aa-ccdc-4f52-be64-f811aafdd6f7.png
+INFO     BASE_ASSERTIONS:base.py:37 Check that "directory" equals to tests
+INFO     USERS_ASSERTIONS:users.py:36 Check user
+INFO     BASE_ASSERTIONS:base.py:37 Check that "id" equals to 38e4f508-8d77-41cb-8097-86c0fdb3cfba
+INFO     BASE_ASSERTIONS:base.py:37 Check that "email" equals to robertmurray@example.org
+INFO     BASE_ASSERTIONS:base.py:37 Check that "last_name" equals to Day
+INFO     BASE_ASSERTIONS:base.py:37 Check that "first_name" equals to Henry
+INFO     BASE_ASSERTIONS:base.py:37 Check that "middle_name" equals to Alexis
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema

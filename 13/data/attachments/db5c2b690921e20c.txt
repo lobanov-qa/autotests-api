@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAxVDE0OjE4OjUyLjAxNjc0OCIsInVzZXJfaWQiOiJiYjMwYzFjNS01NzIzLTQ0YmUtOTgwZC01YWIxM2JkNmM0ZTgifQ.4uP9KntPmqKGzUi36MRsP1a4PaYVQn7uXQGZ2_jgaw8' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Lay maintain I foreign.","maxScore":81,"minScore":28,"description":"Course soldier knowledge save edge. Edge character sound face.\nParticularly miss into reflect edge history. Life policy certainly quickly military mention.","estimatedTime":"7 weeks","previewFileId":"2efff318-da90-4aad-96f6-9c3df7a80fc2","createdByUserId":"bb30c1c5-5723-44be-980d-5ab13bd6c4e8"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAxVDE0OjE4OjUxLjAwNDMzNyIsInVzZXJfaWQiOiJkMGRhZjZiMC0zYWFiLTQxMDYtYmY1ZC05N2Y4NWY1YzBkMzAifQ.mIgLh3pOiYyHpGXD10SdDomqEDgSFep97NSzQv2E0bs' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Although work collection view economy wind.","maxScore":50,"minScore":6,"description":"Size dream benefit real information enough none. Performance wall education certain thousand. Less agency style upon raise else.\nPer list about music resource away charge.","estimatedTime":"4 weeks","previewFileId":"41c82892-676d-4e60-bd13-707c4b28ca07","createdByUserId":"d0daf6b0-3aab-4106-bf5d-97f85f5c0d30"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAxVDE0OjE4OjQ5LjM3MzE5OCIsInVzZXJfaWQiOiJmZGJiYTIzYi0wZTRlLTRhYWYtOTZkZS0xMGYzY2UwNDM0NzUifQ.t7KhiF6khKDjvxe_-mYKOtuzmV8ruhLQ21GfuW2H5F4' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Field anyone identify far.","maxScore":84,"minScore":5,"description":"Community ask likely mouth. Summer defense major president kid at scene radio.\nIncrease service arrive. Last address especially.","estimatedTime":"4 weeks","previewFileId":"defc6e5b-2488-40cf-9663-698f6a55c528","createdByUserId":"fdbba23b-0e4e-4aaf-96de-10f3ce043475"}'
