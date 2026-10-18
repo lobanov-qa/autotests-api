@@ -138,7 +138,7 @@ pytest -m "regression" --alluredir=./allure-results
 После выполнения тестов вы можете сгенерировать и просмотреть Allure-отчет с помощью:
 ```bash
 allure serve allure-results
-
+```
 ---
 
 ## 📞 Контакты
