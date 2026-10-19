@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:86 Check create course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Especially build argue section.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 70
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 29
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Young radio pull bank. Assume attorney marriage. Enter treat suggest we full wife me.
+Number question protect treatment. Several anything cultural get get month. Edge their population wait.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 5 weeks
+INFO     BASE_ASSERTIONS:base.py:37 Check that "preview_file_id" equals to b5926f24-f6df-469e-a3e7-56121794b1d5
+INFO     BASE_ASSERTIONS:base.py:37 Check that "created_by_user_id" equals to e2f3da6f-0b12-4728-aabf-9de69c2c938c
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema

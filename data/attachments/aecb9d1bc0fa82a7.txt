@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/c9225316-917c-4ec4-884a-80109ebee337' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTE5VDA0OjI4OjU2LjMzMzE1MSIsInVzZXJfaWQiOiJlZDBiOTdmNi04Y2U3LTQ2Y2QtOGEwZC00NmE0MzhlNDliOWUifQ.DSQ8-u8dvY4NgYIbkvgeYPdTP18lAlg4IRoqs7Kkqec' \
+  -H 'content-length: 275' \
+  -H 'content-type: application/json' \
+  -d '{"title":"So buy at late son kitchen.","maxScore":90,"minScore":17,"description":"Drop late organization key. Many across effect. Body eat view fear those modern world.\nArgue camera loss man home across those. Car development win follow one body.","estimatedTime":"1 weeks"}'

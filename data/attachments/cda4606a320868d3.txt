@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTE5VDA0OjI4OjU4LjQ0NjcwNCIsInVzZXJfaWQiOiI2ZjA0YmVhMC1kZmUzLTQ3ODAtOGMwOC03OTUzZmQxOWY2NjUifQ.1g_tDdYZFDzBE2G7WvF3VKQdZ_AdG0QbcsMvzHaZc00' \
+  -H 'content-length: 310' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Risk line up feel area type drive.","courseId":"ea3cf2f8-4ee0-43c4-9277-4901faad2862","maxScore":61,"minScore":5,"orderIndex":45,"description":"Make stop seem site mean year commercial. Your minute successful dinner size gas. Executive single adult public century TV fish.","estimatedTime":"4 weeks"}'

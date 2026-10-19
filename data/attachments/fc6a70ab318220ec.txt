@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTE5VDA0OjI4OjU4Ljk1MTkwMSIsInVzZXJfaWQiOiIwYzVjYzRmYi1hNWE1LTQ2YWUtYTgzMi0zMDFjNTNkN2ZiM2IifQ.mP4E-qQ7T98BqFkGuZzhLuFgBZATBKXFMjGryOwhCE0' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Lose prevent become particularly.","maxScore":83,"minScore":28,"description":"Base threat technology more team. Admit gun couple same. Hear before popular them.\nPull modern too boy one cut turn. Surface clear senior could speak whatever.","estimatedTime":"9 weeks","previewFileId":"b042a92f-80ff-4267-ad73-4887ee620f8f","createdByUserId":"0c5cc4fb-a5a5-46ae-a832-301c53d7fb3b"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTE5VDA0OjI4OjU2Ljg5NzkwMyIsInVzZXJfaWQiOiJlMmYzZGE2Zi0wYjEyLTQ3MjgtYWFiZi05ZGU2OWMyYzkzOGMifQ.szLCCJQK_W1K2YmuzKALWQe6YoZqpS1Zxa2uyPc66OQ' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Especially build argue section.","maxScore":70,"minScore":29,"description":"Young radio pull bank. Assume attorney marriage. Enter treat suggest we full wife me.\nNumber question protect treatment. Several anything cultural get get month. Edge their population wait.","estimatedTime":"5 weeks","previewFileId":"b5926f24-f6df-469e-a3e7-56121794b1d5","createdByUserId":"e2f3da6f-0b12-4728-aabf-9de69c2c938c"}'

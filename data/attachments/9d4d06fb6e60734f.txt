@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTE5VDA0OjI4OjU5LjgwOTA1OSIsInVzZXJfaWQiOiIwZDI3NGViZS0xYTcxLTQ1MDAtYTY0My01YzViNWUzMzY5YmUifQ.EA8e7I-H8TdyRrFR0PXMgjG7f7iFlhu9YNkgk7Vhpzo' \
+  -H 'content-length: 358' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Southern finally reflect customer bed color discuss.","maxScore":50,"minScore":15,"description":"Different crime moment seven. Enjoy event soon laugh score whether might staff. Production south get different.","estimatedTime":"3 weeks","previewFileId":"152eccb2-02f4-41ef-9325-282563006a2d","createdByUserId":"0d274ebe-1a71-4500-a643-5c5b5e3369be"}'

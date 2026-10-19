@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTE5VDA0OjI4OjU3LjkwNjQ1MyIsInVzZXJfaWQiOiIxZDU3Mzk2NC1mMGUwLTQwNWYtODE3Mi05MmQwN2RlZTRhNGQifQ.mVUzRIf6dv9pSW3eQL3t0R2Ft64zG2ETcQOUox2aTTI' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Matter story part along network hair.","maxScore":100,"minScore":10,"description":"Share appear stay recently black tree. Box involve piece direction huge public.\nRate really I your none concern. Clearly section human party word play carry certainly.","estimatedTime":"5 weeks","previewFileId":"ff79da63-8081-48ed-bc6a-56cda1e594b4","createdByUserId":"1d573964-f0e0-405f-8172-92d07dee4a4d"}'
