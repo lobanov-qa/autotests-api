@@ -14,7 +14,7 @@ jobs:
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -87,10 +87,9 @@ jobs:
     if: always()
     needs: [ run-tests ]
     runs-on: ubuntu-latest
-
     steps:
       - name: Check out repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           ref: gh-pages
           path: gh-pages
@@ -101,12 +100,17 @@ jobs:
           name: allure-results
           path: allure-results
 
-      - name: Generate Allure Report with history
-        uses: simple-elf/allure-report-action@v1.15
-        if: always()
-        with:
-          allure_results: allure-results
-          allure_history: allure-history
+      - name: Prepare Allure history
+        run: |
+          if [ -d "gh-pages/history" ]; then
+            mkdir -p allure-results/history
+            cp -R gh-pages/history/* allure-results/history/
+          fi
+
+      - name: Generate Allure Report
+        run: |
+          npm install -g allure-commandline
+          allure generate allure-results -o allure-report --clean
 
       - name: Deploy report to Github Pages
         if: always()
@@ -114,5 +118,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-          publish_dir: allure-history
+          publish_dir: allure-report
 
